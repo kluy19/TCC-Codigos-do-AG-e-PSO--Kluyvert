@@ -12,7 +12,7 @@ import networkx as nx
 
 # === Configurações iniciais e dados ===
 dss = py_dss_interface.DSSDLL(r"C:\Program Files\OpenDSS")
-dss_file = r"C:\Users\KLUYVERT\Desktop\IC\34Bus\ieee34Mod2.dss"
+dss_file = r"C:...\34Bus\ieee34Mod2.dss" # Modifique com o seu diretório
 dss.text(f"compile [{dss_file}]")
 dss.solution_solve()
 nomes_linhas = [f"Line.{nome}" for nome in dss.lines_all_names() if not nome.lower().startswith("sw")]
