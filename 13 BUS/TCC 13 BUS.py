@@ -10,7 +10,7 @@ from pyswarm import pso
 
 # === CONFIGURAÇÃO OPEN DSS ===
 dss = py_dss_interface.DSSDLL(r"C:\Program Files\OpenDSS")
-dss_file = r"C:\Users\KLUYVERT\Desktop\IC\integracao_opendss_py_13barras-master\IEEE13Nodeckt.dss"
+dss_file = r"C:...\IEEE13Nodeckt.dss" # Modifique com o seu diretório
 dss.text(f"compile [{dss_file}]")
 dss.solution_solve()
 
