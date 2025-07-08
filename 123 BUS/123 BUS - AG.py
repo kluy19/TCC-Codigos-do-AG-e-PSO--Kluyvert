@@ -10,7 +10,7 @@ import py_dss_interface
 import os
 
 # === CONFIGURAÇÕES ===
-dss_file = r"C:\Users\KLUYVERT\Desktop\IC\123Bus\IEEE123Master.dss"
+dss_file = r"C:...\IEEE123Master.dss" #Mude para o seu diretório
 dss = py_dss_interface.DSSDLL()
 
 dss.text(f"compile [{dss_file}]")
