@@ -10,8 +10,7 @@ import contextlib
 import os
 
 # === CONFIGURAÇÕES ===
-dss_file = r"C:\Users\KLUYVERT\Desktop\IC\123Bus\IEEE123Master.dss"
-dss = py_dss_interface.DSSDLL()
+dss_file = r"C:...\IEEE123Master.dss" #Mude para seu diretório
 dss.text(f"compile [{dss_file}]")
 
 nomes_linhas = [f"Line.{nome}" for nome in dss.lines_all_names() if not nome.lower().startswith("sw")]
