@@ -38,7 +38,9 @@ O repositório contém pastas separadas para cada sistema estudado:
 
 - `13_Bus/`       → Código e resultados do sistema IEEE 13 barras  
 - `34_Bus/`       → Código e resultados do sistema IEEE 34 barras  
-- `123_Bus/`      → Código e resultados do sistema IEEE 123 barras  
+- `123_Bus/`      → Código e resultados do sistema IEEE 123 barras
+- `25_lines/`      → Código e resultados do sistema com 25 linhas criadas para experimento  
+
 
 Além disso, há arquivos principais que podem ser executados diretamente:
 
@@ -48,6 +50,7 @@ Além disso, há arquivos principais que podem ser executados diretamente:
 - `123 Bus - AG.py`  → Execução do AG no sistema IEEE 123 barras  
 - `123 Bus - PSO.py` → Execução do PSO no sistema IEEE 123 barras  
 - `123 Bus gGrafos.py`→ Geração dos grafos com os resultados finais do IEEE 123 barras
+   `25 linhas.py`        → Execução das falhas manuais nas 25 linhas 
 
 Após obter os vetores de resultados das alocações (AG e PSO), é possível plotar esses resultados nos grafos substituindo os vetores correspondentes nos arquivos de geração dos grafos, facilitando a visualização comparativa da alocação dos dispositivos.
 
