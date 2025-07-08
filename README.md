@@ -63,3 +63,6 @@ Este repositório faz parte do TCC:
 
 "Técnicas de Otimização Aplicadas em Sistemas Elétricos de Potência"  
 Instituto Federal do Espírito Santo – 2025
+
+Link para alimentadores do IEEE:
+https://cmte.ieee.org/pes-testfeeders/resources/
